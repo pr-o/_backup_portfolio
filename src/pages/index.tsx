@@ -3,14 +3,6 @@ import Head from "next/head";
 import Image from "next/image";
 import { styled } from "../styles/stitches.config";
 
-const Box = styled("div", {});
-
-const Text = styled("p", {
-  fontFamily: "$system",
-  color: "#008080",
-  backgroundColor: "#000000",
-});
-
 const Home: NextPage = () => {
   return (
     <div>
@@ -43,3 +35,11 @@ const Home: NextPage = () => {
 };
 
 export default Home;
+
+const Box = styled("div", {});
+
+const Text = styled("p", {
+  fontFamily: "$system",
+  color: "#008080",
+  backgroundColor: "#000000",
+});
