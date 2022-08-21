@@ -9,6 +9,7 @@
 			"@/hooks/*": ["hooks/*"],
 			"@/layouts/*": ["layouts/*"],
 			"@/pages/*": ["pages/*"],
+			"@/shaders/*": ["shaders/*"],
 			"@/styles/*": ["styles/*"],
 			"@/types/*": ["types/*"],
 			"@/utils/*": ["utils/*"]
@@ -29,5 +30,5 @@
 		"incremental": true
 	},
 	"include": ["next-env.d.ts", "src"],
-	"exclude": ["node_modules"]
+	"typeRoots": ["src/types"]
 }
