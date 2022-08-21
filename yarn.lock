@@ -892,7 +892,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:8.22.0":
+"eslint@npm:^8.22.0":
   version: 8.22.0
   resolution: "eslint@npm:8.22.0"
   dependencies:
@@ -1882,7 +1882,7 @@ __metadata:
     "@types/node": 18.7.8
     "@types/react": 18.0.17
     "@types/react-dom": 18.0.6
-    eslint: 8.22.0
+    eslint: ^8.22.0
     eslint-config-next: 12.2.5
     next: 12.2.5
     react: 18.2.0
